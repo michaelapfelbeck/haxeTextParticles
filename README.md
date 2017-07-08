@@ -1,0 +1,1 @@
+A Haxe library that lets you emit text as particles.

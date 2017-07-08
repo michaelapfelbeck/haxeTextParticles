@@ -1,0 +1,12 @@
+{
+  "name": "textParticles",
+  "url" : "https://github.com/michaelapfelbeck/haxeTextParticles",
+  "license": "MIT",
+  "tags": ["game", "particles", "graphics"],
+  "description": "Text based particle and emitter.",
+  "version": "1.0.0",
+  "classpath": "textParticles/",
+  "releasenote": "Initial release.",
+  "contributors": ["apfelbeck"],
+  "dependencies": {}
+}

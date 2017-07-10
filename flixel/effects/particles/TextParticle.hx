@@ -11,7 +11,6 @@ import flixel.util.helpers.FlxRange;
  */
 class TextParticle extends FlxText implements IFlxParticle
 {
-//class FlxParticle extends FlxSprite implements IFlxParticle
     public function new(?Text:String, Size:Int=8, EmbeddedFont:Bool=true) 
     {
         super(0, 0, 0, Text, Size, EmbeddedFont);

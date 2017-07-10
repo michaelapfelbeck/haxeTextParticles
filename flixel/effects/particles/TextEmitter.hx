@@ -9,8 +9,9 @@ import flixel.math.FlxVelocity;
  * @author Michael Apfelbeck
  */
 class TextEmitter extends FlxTypedEmitter<TextParticle>
-{   
+{
     public var Text:String = null;
+    public var Font:String = null;
     
     public override function emitParticle():TextParticle{
 		var particle:TextParticle = cast recycle(cast particleClass);
@@ -25,6 +26,10 @@ class TextEmitter extends FlxTypedEmitter<TextParticle>
         
         if (Text != null){
             particle.text = Text;
+        }
+        
+        if (particle.embedded && Font != null){
+            particle.font = Font;
         }
 		
 		if (velocity.active)
